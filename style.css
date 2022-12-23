@@ -8,7 +8,7 @@ html {
     font-weight: 400, 700;
 }
 
-.background {
+body {
     background-color: gray;
 }
 
@@ -33,6 +33,7 @@ html {
     position: fixed;
     top: 24%;
     left: 43%;
+    z-index: 1;
 }
 
 .secondText {
@@ -43,6 +44,12 @@ html {
     position: fixed;
     top: 57%;
     left: 43.5%;
+}
+
+.attribution {
+    position: fixed;
+    top: 95%;
+    left: 70%;
 }
 
 @media (max-width: 375px){
@@ -67,6 +74,7 @@ html {
     position: fixed;
     top: 15%;
     left: 14%;
+    z-index: 1;
 }
 
 .secondText {
@@ -79,4 +87,13 @@ html {
     left: 22%;
 }
 
+.attribution {
+    height: 10%;
+    width: 60%;
+    position: fixed;
+    top: 93%;
+    left: 40%;
 }
+
+}
+
