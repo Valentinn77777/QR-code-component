@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./font/Outfit-Regular.ttf);
+}
+
+html {
+    font-family: 'Outfit';
+    font-weight: 400, 700;
+}
+
+.background {
+    background-color: gray;
+}
+
+.firstText {
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    background-color: hsl(0, 0%, 100%);
+    width: 15%;
+    height: 18%;
+    position: fixed;
+    top: 20%;
+    left: 42%;
+    padding-top: 15%;
+    padding-left: 2%;
+    border-radius: 30px;
+}
+
+.qrCode {
+    height: 25%;
+    width: 15%;
+    border-radius: 10px;
+    position: fixed;
+    top: 24%;
+    left: 43%;
+
+}
+
+.secondText {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    width: 16%;
+    height: 50%;
+    position: fixed;
+    top: 57%;
+    left: 43.5%;
+}
