@@ -33,7 +33,6 @@ html {
     position: fixed;
     top: 24%;
     left: 43%;
-
 }
 
 .secondText {
@@ -44,4 +43,40 @@ html {
     position: fixed;
     top: 57%;
     left: 43.5%;
+}
+
+@media (max-width: 375px){
+    .firstText {
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    background-color: hsl(0, 0%, 100%);
+    width: 75%;
+    height: 25%;
+    position: fixed;
+    top: 10%;
+    left: 9.5%;
+    padding-top: 75%;
+    padding-left: 4%;
+    border-radius: 30px;
+}
+
+.qrCode {
+    height: 35%;
+    width: 70%;
+    border-radius: 10px;
+    position: fixed;
+    top: 15%;
+    left: 14%;
+}
+
+.secondText {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    width: 60%;
+    height: 50%;
+    position: fixed;
+    top: 60%;
+    left: 22%;
+}
+
 }
