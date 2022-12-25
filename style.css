@@ -3,106 +3,65 @@
     src: url(./font/Outfit-Regular.ttf);
 }
 
-html {
+body {
     font-family: 'Outfit';
     font-weight: 400, 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    background-color: rgb(164, 164, 185);
+
+    height: 100vh;
+    width: 100vw;
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
-    background-color: gray;
+.card {
+    height: 450px;
+    width: 290px;
+
+    margin: 100px;
+    border-radius: 20px;
+
+    background-color: white;
 }
 
-.firstText {
-    font-size: 18px;
-    color: hsl(218, 44%, 22%);
-    background-color: hsl(0, 0%, 100%);
-    width: 215px;
-    height: 150px;
-    position: fixed;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 200px;
-    padding-left: 25px;
-    border-radius: 30px;
-}
 
-.qrCode {
-    height: 170px;
-    width: 200px;
+.card .qrCode {
+    width: 265px;
+
+    margin: 13px;
+
     border-radius: 10px;
-    position: fixed;
-    top: 36%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+
+    overflow: hidden;
 }
 
-.secondText {
-    color: hsl(220, 15%, 55%);
+.card .firstText {
+    color: hsl(218, 44%, 22%);
+
+    font-size: 18px;
+
+    position: absolute;
+    width: 200px;
+
+    padding-left: 45px;
+}
+
+.card .secondText {
+    color: hsl(212, 45%, 89%);
+
     font-size: 15px;
     text-align: center;
-    width: 200px;
-    height: 300px;
-    position: fixed;
-    top: 79%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-.attribution {
-    position: fixed;
-    top: 95%;
-    left: 70%;
-}
+    position: absolute;
+    width: 240px;
 
-@media (max-width: 375px) {
-    .firstText {
-    font-size: 22px;
-    text-align: left;
-    color: hsl(218, 44%, 22%);
-    background-color: hsl(0, 0%, 100%);
-    width: 320px;
-    height: 220px;
-    position: fixed;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 80%;
-    padding-left: 6%;
-    border-radius: 30px;
+    padding-top: 60px;
+    padding-left: 25px;
 }
-
-.qrCode {
-    height: 250px;
-    width: 300px;
-    border-radius: 10px;
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.secondText {
-    color: hsl(220, 15%, 55%);
-    text-align: center;
-    font-size: 18px;
-    width: 300px;
-    height: 150px;
-    position: fixed;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.attribution {
-    height: 10%;
-    width: 60%;
-    position: fixed;
-    top: 93%;
-    left: 40%;
-}
-
-}
-
